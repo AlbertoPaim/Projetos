@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(89,91,231,1) 0%, rgba(96,159,196,1) 0%, rgba(255,255,255,1) 100%, rgba(252,70,107,1) 100%);}
+header {
+    width: auto;
+    height: auto;
+    background-color: white;
+
+}
+.menu{
+ display: flex;
+align-items: center;
+flex: 1;
+justify-content: center;
+}
+a{
+    display: flex;
+    height: auto;
+}
+.logo {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.menutext{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-right: 20px;
+}
+.menutext h1{
+    font-size: 80px;
+    color: rgb(4, 58, 4);
+    margin: 10px;
+}
+.menutext h2{
+    margin: 10px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.img1 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.fotoprincipal{
+    display: flex;
+    align-content: stretch;
+    width: 90%;
+    margin: auto;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    margin: 20px;
+}
+
+.text1 a{
+    text-decoration: none;
+}
+.text1 :hover{
+    color:black
+}
+.text1 h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #aa2a2a;
+}
+.text1 p {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    text-align: justify;
+    margin-right: 20px;
+    font-weight: bolder;
+    padding: 5px;
+}
+.container2{
+    margin-top: 50px;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.album{
+    display: flex;
+    align-items: center;
+
+    
+}
+.albumimg{
+    margin: 20px;
+    display: flex;
+    width: 450px;
+    height: 450px;
+    margin-right: 50px;
+}
+
+.albumimg:hover{
+    width: 400px;
+    height: 400px;
+}
+
+.album ul li {
+    list-style: none;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(4, 58, 4);
+}
+.integrantes {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    max-width: 900px;
+}
+
+
+.integrantes h2 {
+    margin-bottom: 50px;
+    margin:20px;
+    color: rgb(4, 58, 4);
+}
+
+.integrantes a{
+    text-decoration: none;
+}
+.integrantes h2:hover{
+    text-decoration: none;
+    color:white;
+}
+.integrantes ul li {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin: 20px;
+    list-style: none;
+    font-weight: bold;
+}
+.container3{
+    display: flex;
+    
+}
+.tragedia {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+}
+.tragedia h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.tragedia P {
+     line-height: 40px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    text-align: justify;
+    padding: 10px;
+    font-weight: bold;
+}
+.tragediaimg{
+
+    display: flex;
+    margin:auto;
+    flex-direction: column;
+    
+}
+.aviao1{
+   margin: 10px;
+}
+.aviao2{
+    margin: 10px;
+}
+
+.adeus
+{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.adeus a {
+    text-decoration: none;
+}
+.adeus a :hover{
+    color:white
+
+}
+
+footer h2{
+    margin-bottom: 30px;
+    color:black ;
+}
+    
+@media (min-width:320px) and (max-width:1024px){
+    
+    .menutext h1{
+       display: none;
+       
+    }
+
+    .main{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menutext h2{
+        display: none;
+    }
+    .img1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .fotoprincipal{
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+        
+    }
+    .text1{
+        display: flex;
+        margin:0;
+        text-align: center;
+    }
+    .text1 p{
+        display: flex;
+        margin:0;
+        text-align: center;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+       
+}
+.integrantes h2{
+    font-size: 40px;
+}
+.integrantes a{
+    display: flex;
+        margin:0;
+        text-align: center;
+}
+.album{
+    display: flex;
+    flex-direction: column;
+}
+
+.albumimg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tragedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tragedia h2 {
+    display: flex;
+    font-size: 40px;
+}
+.tragediaimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.tragedia P{
+    display: flex;
+    font-size: 30px;
+    margin: 0;
+    text-align:center;
+}
+footer h2{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+}
+
+}
+
+
